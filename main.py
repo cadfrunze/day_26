@@ -1,4 +1,7 @@
+names = ['Maryus', 'Iulia', 'Bianca', 'Sebi']
 
+new_names = [name.upper() for name in names if name != name.upper()]
+print(new_names)
 
-numbers = [num + num for num in range(1, 5)]
-print(numbers)
+with open('work_log.txt', 'a') as file:
+    file.writelines('\n16.02')
