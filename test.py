@@ -37,7 +37,7 @@ data_test = pandas.DataFrame(data_dict)
 # for (cheia, valoare) in data_test.items():
 #     print(valoare)
 
-for (index, row.useri) in data_test.iterrows():
+for (index, row) in data_test.iterrows():
     print(row.useri)
 
 
